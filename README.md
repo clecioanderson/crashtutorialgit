@@ -11,10 +11,14 @@
 - [Comandos a nível de repositório](#comandos-a-nível-de-repositório)
 
 [Listar configurações](#listar-configurações)
+
 [Autenticação em repositórios remotos](#autenticação-em-repositórios-remotos)
+
 [Informações de contato](#informações-de-contato)
+
 [Editor Padrão](#editor-padrão)
- [Ativar o uso de cores para diferenciar texto](#ativar-o-uso-de-cores-para-diferenciar-texto)
+
+[Ativar o uso de cores para diferenciar texto](#ativar-o-uso-de-cores-para-diferenciar-texto)
 
 ## Opções de configuração do Git
 
