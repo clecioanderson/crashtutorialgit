@@ -94,5 +94,5 @@ Configurar o editor padrão para git a *nível de usuário*. No exemplo abaixo e
 ## Ativar o uso de cores para diferenciar texto
 Definir o uso de cores no git a *nível de usuário*. Perceba que nesse caso o valor **não** veio entre **aspas duplas**.
 
-`git config --global color.ui true
+`git config --global color.ui true`
 
