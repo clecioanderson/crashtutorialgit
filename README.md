@@ -1,19 +1,6 @@
 # crashtutorialgit
 
-- [crashtutorialgit](#crashtutorialgit)
-  * [Opções de configuração do Git](#op--es-de-configura--o-do-git)
-      - [A nível de sistema operacional:](#a-n-vel-de-sistema-operacional-)
-      - [A nível de usuário:](#a-n-vel-de-usu-rio-)
-      - [A nível de projeto:](#a-n-vel-de-projeto-)
-      - [Comandos a nível de sistema operacional](#comandos-a-n-vel-de-sistema-operacional)
-      - [Comandos a nível de usuário](#comandos-a-n-vel-de-usu-rio)
-      - [Comandos a nível de repositório](#comandos-a-n-vel-de-reposit-rio)
-    + [Listar configurações](#listar-configura--es)
-    + [Autenticação em repositórios remotos](#autentica--o-em-reposit-rios-remotos)
-    + [Informações de contato](#informa--es-de-contato)
-    + [Editor Padrão](#editor-padr-o)
-    + [Ativar o uso de cores para diferenciar texto](#ativar-o-uso-de-cores-para-diferenciar-texto)
-
+[TOC]
 
 ## Opções de configuração do Git
 
@@ -32,7 +19,6 @@ Você poderá encontrar na pasta de instalação global do git um arquivo chamad
 Você poderá encontrar na pasta do usuário um arquivo chamado **gitconfig**
 
 `~/.gitconfig`
-
 `$HOME/.gitconfig`
 
 #### A nível de projeto:
@@ -81,10 +67,12 @@ Ao tentar realizar o primeiro push num novo repositório remoto, não é solicit
 
 1. Edite o arquivo .git/config do repositório de trabalho
 2. Adicione a opção abaixo:
+
 ```yaml
 [credential]
         helper =
 ```
+
 3. Salve o arquivo e tente realizar o push novamente
 
 ### Informações de contato
@@ -107,4 +95,4 @@ Configurar o editor padrão para git a *nível de usuário*. No exemplo abaixo e
 
 Definir o uso de cores no git a *nível de usuário*. Perceba que nesse caso o valor **não** veio entre **aspas duplas**.
 
-`git config --global color.ui true`
+`git config --global color.ui true
