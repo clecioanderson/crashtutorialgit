@@ -4,9 +4,9 @@
     * [A nível de sistema operacional:](#a-nível-de-sistema-operacional)
     * [A nível de usuário:](#a-nível-de-usuário)
     * [A nível de projeto:](#nível-de-projeto)
-    * [Comandos a nível de sistema operacional](#comandos-a-nível-de-sistema-operacional)
-    * [Comandos a nível de usuário](#comandos-a-nível-de-usuário)
-    * [Comandos a nível de repositório](#comandos-a-nível-de-repositório)
+    * [Configurações a nível de sistema operacional](#configurações-a-nível-de-sistema-operacional)
+    * [Configurações a nível de usuário](#configurações-a-nível-de-usuário)
+    * [Configurações a nível de repositório](#configurações-a-nível-de-repositório)
 * [Listar configurações](#listar-configurações)
 * [Autenticação em repositórios remotos](#autenticação-em-repositórios-remotos)
 * [Informações de contato](#informações-de-contato)
@@ -34,17 +34,17 @@ Você poderá encontrar na pasta do projeto um arquivo chamado **gitconfig**
 
 `my_project/.git/config`
 
-#### Comandos a nível de sistema operacional
+#### Configurações a nível de sistema operacional
 A nível de sistema poderá usar o comando:
 
 `git config --system [options] [values]`
 
-#### Comandos a nível de usuário
+#### Configurações a nível de usuário
 A nível de usuário poderá usar o comando:
 
 `git config --global [options] [values]`
 
-#### Comandos a nível de repositório
+#### Configurações a nível de repositório
 A nível de repositório poderá usar o comando:
 
 `git config [options] [values]`
