@@ -1,9 +1,9 @@
 # crashtutorialgit
 ##### Table of Contents
 * [Níveis de configuração do Git](#níveis-de-configuração-do-git)
-    * [A nível de sistema operacional:](#a-nível-de-sistema-operacional)
-    * [A nível de usuário:](#a-nível-de-usuário)
-    * [A nível de projeto:](#nível-de-projeto)
+    * [A nível de sistema operacional](#a-nível-de-sistema-operacional)
+    * [A nível de usuário](#a-nível-de-usuário)
+    * [A nível de projeto](#nível-de-projeto)
     * [Configurações a nível de sistema operacional](#configurações-a-nível-de-sistema-operacional)
     * [Configurações a nível de usuário](#configurações-a-nível-de-usuário)
     * [Configurações a nível de repositório](#configurações-a-nível-de-repositório)
@@ -101,4 +101,5 @@ Definir o uso de cores no git a *nível de usuário*. Perceba que nesse caso o v
 Para consultar a qualquer momento a ajuda dos comandos do git execute a linha de comando **git help [opção]**. Veja um exemplo abaixo que trará a ajuda para o comando **git log**.
 
 `git help log`
+
 
