@@ -96,3 +96,4 @@ Definir o uso de cores no git a *nível de usuário*. Perceba que nesse caso o v
 
 `git config --global color.ui true`
 
+
