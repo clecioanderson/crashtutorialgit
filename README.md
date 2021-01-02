@@ -33,6 +33,7 @@ Você poderá encontrar na pasta de instalação global do git um arquivo chamad
 Você poderá encontrar na pasta do usuário um arquivo chamado **gitconfig**
 
 `~/.gitconfig`
+
 `$HOME/.gitconfig`
 
 #### A nível de projeto:
