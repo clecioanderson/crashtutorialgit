@@ -135,8 +135,11 @@ Para rastrear alterações a partir de agora vamos criar um arquivo de teste.
 Para simular essas tarefas num sistema linux, você poderá executar os comandos abaixo. Vamos levar em conta o repositório criado anteriormente:
 
 `cd newwork`
+
 `echo "teste" > teste`
+
 `git add .`
+
 `git commit -m "Commit Inicial"`
 
 ###### git add
