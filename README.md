@@ -12,6 +12,7 @@
 * [Informações de contato](#informações-de-contato)
 * [Editor Padrão](#editor-padrão)
 * [Ativar o uso de cores para diferenciar texto](#ativar-o-uso-de-cores-para-diferenciar-texto)
+* [Consultar ajuda dos comandos](#consultar-ajuda-dos-comandos)
 
 ## Níveis de configuração do Git
 É importante lembrar que o git permite configurações em 3 níveis diferentes. É possível armazenar configurações **a nível de sistema operacional**, **a nível de usuário** ou **a nível de repositório de trabalho.**
@@ -96,4 +97,8 @@ Definir o uso de cores no git a *nível de usuário*. Perceba que nesse caso o v
 
 `git config --global color.ui true`
 
+## Consultar ajuda dos comandos
+Para consultar a qualquer momento a ajuda dos comandos do git execute a linha de comando **git help [opção]**. Veja um exemplo abaixo que trará a ajuda para o comando **git log**.
+
+`git help log`
 
