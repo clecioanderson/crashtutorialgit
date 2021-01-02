@@ -17,6 +17,7 @@ Você poderá encontrar na pasta de instalação global do git um arquivo chamad
 Você poderá encontrar na pasta do usuário um arquivo chamado **gitconfig**
 
 `~/.gitconfig`
+
 `$HOME/.gitconfig`
 
 #### A nível de projeto:
@@ -83,12 +84,12 @@ Editar o email de contato do auto dos commits *no nível de usuário*
 
 ### Editor Padrão
 
-Configurar o editor padrão para git a *no nível de usuário*. No exemplo abaixo estou ajustando o *TextMate* como meu editor padrão.
+Configurar o editor padrão para git a *nível de usuário*. No exemplo abaixo estou ajustando o *TextMate* como meu editor padrão.
 
 `git config --global core.editor "mate -wl1"`
 
 ### Ativar o uso de cores para diferenciar texto
 
-Definir o uso de cores no git a *no nível de usuário*. Perceba que nesse caso o valor **não** veio entre **aspas duplas**.
+Definir o uso de cores no git a *nível de usuário*. Perceba que nesse caso o valor **não** veio entre **aspas duplas**.
 
 `git config --global color.ui true`
