@@ -1,26 +1,6 @@
 # crashtutorialgit
 
-#### Table of contents
-
-[Opções de configuração do Git](#opções-de-configuração-do-git)
-- [A nível de sistema operacional:](#a-nível-de-sistema-operacional)
-- [A nível de usuário:](#a-nível-de-usuário)
-- [A nível de projeto:](#a-nível-de-projeto)
-- [Comandos a nível de sistema operacional](#comandos-a-nível-de-sistema-operacional)
-- [Comandos a nível de usuário](#comandos-a-nível-de-usuário)
-- [Comandos a nível de repositório](#comandos-a-nível-de-repositório)
-
-[Listar configurações](#listar-configurações)
-
-[Autenticação em repositórios remotos](#autenticação-em-repositórios-remotos)
-
-[Informações de contato](#informações-de-contato)
-
-[Editor Padrão](#editor-padrão)
-
-[Ativar o uso de cores para diferenciar texto](#ativar-o-uso-de-cores-para-diferenciar-texto)
-
-## Opções de configuração do Git
+## Níveis de configuração do Git
 
 É importante lembrar que o git permite configurações em 3 níveis diferentes. É possível armazenar configurações **a nível de sistema operacional**, **a nível de usuário** ou **a nível de repositório de trabalho.**
 
@@ -67,7 +47,7 @@ A nível de repositório poderá usar o comando:
 
 `git config [options] [values]`
 
-### Listar configurações
+## Listar configurações
 
 Para listar todas as configurações padrão e outras já configuradas **a nível de usuário** poderá executar o comando abaixo
 
@@ -77,7 +57,7 @@ Para listar uma configuração específica **a nível de usuário** poderá exec
 
 `git config user.name`
 
-### Autenticação em repositórios remotos
+## Autenticação em repositórios remotos
 
 Ao tentar realizar o primeiro push num novo repositório remoto, não é solicitado usuário e senha para push via HTTP, resultando em erro de autenticação. 
 
@@ -93,7 +73,7 @@ Ao tentar realizar o primeiro push num novo repositório remoto, não é solicit
 
 3. Salve o arquivo e tente realizar o push novamente
 
-### Informações de contato
+## Informações de contato
 
 Editar o nome/autor dos commits *no nível de usuário*
 
@@ -103,13 +83,13 @@ Editar o email de contato do auto dos commits *no nível de usuário*
 
 `git config --global user.email "john@mycompany.me"`
 
-### Editor Padrão
+## Editor Padrão
 
 Configurar o editor padrão para git a *nível de usuário*. No exemplo abaixo estou ajustando o *TextMate* como meu editor padrão.
 
 `git config --global core.editor "mate -wl1"`
 
-### Ativar o uso de cores para diferenciar texto
+## Ativar o uso de cores para diferenciar texto
 
 Definir o uso de cores no git a *nível de usuário*. Perceba que nesse caso o valor **não** veio entre **aspas duplas**.
 
