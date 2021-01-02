@@ -2,18 +2,19 @@
 
 #### Table of contents
 
-    * [Opções de configuração do Git](#opções-de-configuração-do-git)
-	- [A nível de sistema operacional:](#a-nível-de-sistema-operacional)
-        - [A nível de usuário:](#a-nível-de-usuário)
-        - [A nível de projeto:](#a-nível-de-projeto)
-        - [Comandos a nível de sistema operacional](#comandos-a-nível-de-sistema-operacional)
-        - [Comandos a nível de usuário](#comandos-a-nível-de-usuário)
-        - [Comandos a nível de repositório](#comandos-a-nível-de-repositório)
-    * [Listar configurações](#listar-configurações)
-    * [Autenticação em repositórios remotos](#autenticação-em-repositórios-remotos)
-    * [Informações de contato](#informações-de-contato)
-    * [Editor Padrão](#editor-padrão)
-    * [Ativar o uso de cores para diferenciar texto](#ativar-o-uso-de-cores-para-diferenciar-texto)
+[Opções de configuração do Git](#opções-de-configuração-do-git)
+- [A nível de sistema operacional:](#a-nível-de-sistema-operacional)
+- [A nível de usuário:](#a-nível-de-usuário)
+- [A nível de projeto:](#a-nível-de-projeto)
+- [Comandos a nível de sistema operacional](#comandos-a-nível-de-sistema-operacional)
+- [Comandos a nível de usuário](#comandos-a-nível-de-usuário)
+- [Comandos a nível de repositório](#comandos-a-nível-de-repositório)
+
+[Listar configurações](#listar-configurações)
+[Autenticação em repositórios remotos](#autenticação-em-repositórios-remotos)
+[Informações de contato](#informações-de-contato)
+[Editor Padrão](#editor-padrão)
+ [Ativar o uso de cores para diferenciar texto](#ativar-o-uso-de-cores-para-diferenciar-texto)
 
 ## Opções de configuração do Git
 
