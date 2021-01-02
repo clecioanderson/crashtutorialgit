@@ -1,5 +1,18 @@
 # crashtutorialgit
 
+* [Níveis de configuração do Git](#níveis-de-configuração-do-git)
+            * [A nível de sistema operacional:](#a-nível-de-sistema-operacional)
+            * [A nível de usuário:](#a-nível-de-usuário)
+            * [A nível de projeto:](#nível-de-projeto)
+            * [Comandos a nível de sistema operacional](#comandos-a-nível-de-sistema-operacional)
+            * [Comandos a nível de usuário](#comandos-a-nível-de-usuário)
+            * [Comandos a nível de repositório](#comandos-a-nível-de-repositório)
+* [Listar configurações](#listar-configurações)
+ * [Autenticação em repositórios remotos](#autenticação-em-repositórios-remotos)
+* [Informações de contato](#informações-de-contato)
+* [Editor Padrão](#editor-padrão)
+* [Ativar o uso de cores para diferenciar texto](#ativar-o-uso-de-cores-para-diferenciar-texto)
+
 ## Níveis de configuração do Git
 
 É importante lembrar que o git permite configurações em 3 níveis diferentes. É possível armazenar configurações **a nível de sistema operacional**, **a nível de usuário** ou **a nível de repositório de trabalho.**
