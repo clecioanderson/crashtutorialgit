@@ -92,7 +92,7 @@ Configurar o editor padrão para git a *nível de usuário*. No exemplo abaixo e
 `git config --global core.editor "mate -wl1"`
 
 ## Ativar o uso de cores para diferenciar texto
-Definir o uso de cores no git a *nível de usuário*. Perceba que nesse caso o valor **não** veio entre **aspas duplas**.
+Definir o uso de cores no git a *nível de usuário*. Perceba que nesse caso o valor para o parâmetro, nesse caso, *true* **não** veio entre **aspas duplas**.
 
 `git config --global color.ui true`
 
